@@ -56,8 +56,8 @@ python manage.py startapp receitas
 
 - [ ] Configurar a rota inicial(index)
     -Na pasta `receitas` criar um arquivo `urls.py`
-    ```
-    Adicionar este código:
+```
+Adicionar este código:
 
 from django.urls import Path
 from . import views
